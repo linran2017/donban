@@ -1,0 +1,1146 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" 
+		href="../css/douban.css" />
+		<script src="../js/jquery-1.11.3.min.js"></script>
+		<script src="../js/douban.js"></script>
+	<title>豆瓣</title>
+</head>
+<body>
+	<!--头部区域-->
+	<div id="header">
+		<a class="logo"></a>
+		<input type="search" class="sousuo" value="书籍、电影、音乐、小组、小站 、成员" />
+		<a class="search"></a>
+		<ul class="dhul">
+			<li class="dhli">
+				<a class="read"></a>
+			</li>
+			<li class="dhli">
+				<a class="moive"></a>
+			</li>
+			<li class="dhli">
+				<a class="music"></a>
+			</li>
+			<li class="dhli">
+				<a class="team"></a>
+			</li>
+			<li class="dhli">
+				<a class="city"></a>
+			</li>
+			<li class="dhli">
+				<a class="fm"></a>
+			</li>
+			<li class="dhli">
+				<a class="thing"></a>
+			</li>
+			<li class="dhli">
+				<a class="jishi"></a>
+			</li>
+		</ul>
+	</div>
+	<!--头部区域结束-->
+	
+	<!--注册区域-->
+	<div id="zhuce_box">
+		<div class="zhuce">
+			<a class="join">加入我们<span class="zc">注册</span></a>
+			<p class="find">发现更多生活</p>
+			<form action="">
+				<input class="uname" type="text" value="邮箱/手机号" />
+				<input class="psd" type="text" value="密码" />
+				<a class="donglu">登录</a>				
+				<p class="rember"><input type="checkbox" class="check" />记住我</p>
+				<a class="forget">忘记密码</a>
+			</form>
+		</div>
+	</div>	
+	<!--注册区域结束-->
+	
+	<!--热点内容区域-->
+	<div class="con">
+
+	<div class="left">
+	<h2 class="hot">热点内容……<a class="more">（更多）</a></h2>
+	   <ul class="conul">
+	      <li class="conli">
+	         <a><img class="pic" src="../img/con1 .jpg" /></a>
+	         <p class="album">
+	            <a class="timu">来自友达的爱</a>
+	            <span class="zhang">51张照片</span>
+	         </p>
+	      </li>
+	      <li class="conli">
+	         <a><img class="pic" src="../img/con2.jpg" /></a>
+	         <p class="album">
+	            <a class="timu">可以去三十次的霓虹</a>
+	            <span class="zhang">79张照片</span>
+	         </p>
+	      </li>
+	      <li class="conli">
+	         <a><img class="pic" src="../img/con3.jpg" /></a>
+	         <p class="album">
+	            <a class="timu">法源寺</a>
+	            <span class="zhang">42张照片</span>
+	         </p>
+	      </li>
+	      <li class="conli">
+	         <a><img class="pic" src="../img/con4.jpg" /></a>
+	         <p class="album">
+	            <a class="timu">花</a>
+	            <span class="zhang">29张照片</span>
+	         </p>
+	      </li>
+	   </ul>
+	</div>
+	<div class="center">
+	   <ul class="concul">
+	      <li class="concli"><a class="centertimu">时尚魔头们的人生传奇：5部天才设计师的传记电影 | 豆单</a><span class="jianjie">单豆的日记
+	      <p class="neirou">圣·罗兰，卡尔·拉格斐，香奈儿⋯⋯这些顶级时尚帝国的缔造者和设计师，将才...</p></span></li>
+	      <li class="concli"><a class="centertimu">造反</a></li>
+	      <li class="concli"><a class="centertimu">2017年最新成都熊猫基地攻略（想去的看过来，po主3-4月亲测）</a></li>
+	      <li class="concli"><a class="centertimu">青春的谜底（上）——学生时代</a></li>
+	      <li class="concli"><a class="centertimu">文艺的生活，随光而行</a></li>
+	      <li class="concli"><a class="centertimu">王二并不风流</a></li>
+	      <li class="concli"><a class="centertimu">为什么猫都喜欢混黑帮？</a></li>
+	      <li class="concli"><a class="centertimu">岛国暴力团：打不死我，我打死你</a></li>
+	      <li class="concli"><a class="centertimu">哈佛哲学系出身的他用40年只拍了5部电影</a></li>
+	      <li class="concli"><a class="centertimu">老宅</a></li>
+	      
+	   </ul>
+	</div>
+	<div class="right">
+	   <a><img class="yike" src="../img/con5.jpg" /></a>
+	   <h2 class="online">线上活动……<a class="genduo">（更多）</a></h2>
+	   <ul class="conrul">
+	      <li class="conrli">
+	         <a class="righttimu">来一句王家卫式的话</a>
+	         <p class="time">时间：2月25日 - 5月24日</p>
+	         <p class="people">1453人参加</p>	         
+	      </li>
+	      <li class="conrli">
+	         <a class="righttimu">给我你的照片，让我为你画张肖像。2017鸡年大吉有奖版吧</a>
+	         <p class="time">时间：2月8日 - 5月7日 </p>
+	         <p class="people">1569人参加</p>	         
+	      </li>
+	   </ul>
+	</div>
+	</div>
+    <!--热点内容区域结束-->
+    
+    <!--电影区域-->
+    <div id="dianyingbackground">
+    	<div class="dianyin">
+    		<div class="left">
+    			<a class="biaoti">电影</a>
+    			<ul class="lul">
+    				<li class="lli"><a>影讯&amp;购票</a></li>
+    				<li class="lli"><a>选电影</a><img src="../img/new.gif" /></li>
+    				<li class="lli"><a>电视剧</a></li>
+    				<li class="lli"><a>排行榜</a></li>
+    				<li class="lli"><a>分类</a></li>
+    				<li class="lli"><a>影评</a></li>
+    				<li class="lli"><a>预告片</a></li>
+    				<li class="lli"><a>问答</a></li>
+    			</ul>
+    		</div>
+    		<div class="center">
+    			<h2 class="ing">正在热映……<span>（更多）</span></h2>
+    			<ul class="cul">
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/dy1.png" />
+    					</a>
+    					<p class="pianming"><a>速度与激情8</a></p>
+    					<p class="pinfen"><span class="star1"></span><b>7.3</b></p>
+    					<a class="choose">选座购票</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/dy2.png" />
+    					</a>
+    					<p class="pianming"><a>蓝精灵:寻找…</a></p>
+    					<p class="pinfen"><span class="star2"></span><b>6.6</b></p>
+    					<a class="choose">选座购票</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/dy3.png" />
+    					</a>
+    					<p class="pianming"><a>傲娇与偏见</a></p>
+    					<p class="pinfen"><span class="star3"></span><b>5.4</b></p>
+    					<a class="choose">选座购票</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/dy4.png" />
+    					</a>
+    					<p class="pianming"><a>大话西游之大…</a></p>
+    					<p class="pinfen"><span class="star4"></span><b>9.2</b></p>
+    					<a class="choose">选座购票</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/dy5.png" />
+    					</a>
+    					<p class="pianming"><a>神秘家族</a></p>
+    					<p class="pinfen"><span class="star5"></span><b>5.3</b></p>
+    					<a class="choose">选座购票</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/dy6.png" />
+    					</a>
+    					<p class="pianming"><a>非凡任务</a></p>
+    					<p class="pinfen"><span class="star6"></span><b>6.6</b></p>
+    					<a class="choose">选座购票</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/dy7.png" />
+    					</a>
+    					<p class="pianming"><a>金刚：骷颅岛</a></p>
+    					<p class="pinfen"><span class="star7"></span><b>6.8</b></p>
+    					<a class="choose">选座购票</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/dy8.png" />
+    					</a>
+    					<p class="pianming"><a>春娇救志明</a></p>
+    					<p class="pinfen"><span class="star8"></span><b>8.1</b></p>
+    					<a class="choose">选座购票</a>
+    				</li>
+    			</ul>
+    		</div>
+    		<div class="right">
+    			<h2 class="kind">影片分类……<span class="genduo">（更多）</span></h2>
+    			<ul class="rul">
+    				<li class="rli">
+    					<a>爱情</a>
+    				</li>
+    				<li class="rli">
+    					<a>喜剧</a>
+    				</li>
+    				<li class="rli">
+    					<a>剧情</a>
+    				</li>
+    				<li class="rli">
+    					<a>动画</a>
+    				</li>
+    				<li class="rli">
+    					<a>科幻</a>
+    				</li>
+    				<li class="rli">
+    					<a>动作</a>
+    				</li>
+    				<li class="rli">
+    					<a>经典</a>
+    				</li>
+    				<li class="rli">
+    					<a>悬疑</a>
+    				</li>
+    				<li class="rli">
+    					<a>青春</a>
+    				</li>
+    				<li class="rli">
+    					<a>犯罪</a>
+    				</li>
+    				<li class="rli">
+    					<a>惊悚</a>
+    				</li>
+    				<li class="rli">
+    					<a>文艺</a>
+    				</li>
+    				<li class="rli">
+    					<a>搞笑</a>
+    				</li>
+    				<li class="rli">
+    					<a>励志</a>
+    				</li>
+    				<li class="rli">
+    					<a>纪录片</a>
+    				</li>
+    				<li class="rli">
+    					<a>恐怖</a>
+    				</li>
+    				<li class="rli">
+    					<a>战争</a>
+    				</li>
+    				<li class="rli">
+    					<a>短片</a>
+    				</li>
+    				<li class="rli">
+    					<a>美国</a>
+    				</li>
+    				<li class="rli">
+    					<a>日本</a>
+    				</li>
+    				<li class="rli">
+    					<a>香港</a>
+    				</li>
+    				<li class="rli">
+    					<a>英国</a>
+    				</li>
+    				<li class="rli">
+    					<a>中国</a>
+    				</li>
+    				<li class="rli">
+    					<a>韩国</a>
+    				</li>
+    				<li class="rli">
+    					<a>法国</a>
+    				</li>
+    				<li class="rli">
+    					<a>台湾</a>
+    				</li>
+    				<li class="rli">
+    					<a>大陆</a>
+    				</li>
+    			</ul>
+    			<h2 class="remeng">近期热门……<span class="genduo">（更多）</span></h2>
+    			<ul class="rdownul">
+    				<li class="rdownli">1.<span>怒</span></li>
+    				<li class="rdownli">2.<span>看不见的客人</span></li>
+    				<li class="rdownli">3.<span>杰出公民</span></li>
+    				<li class="rdownli">4.<span>美女与野兽</span></li>
+    				<li class="rdownli">5.<span>分裂</span></li>
+    				<li class="rdownli">6.<span>西游伏妖篇</span></li>
+    				<li class="rdownli">7.<span>乘风破浪</span></li>
+    				<li class="rdownli">8.<span>帕特森</span></li>
+    				<li class="rdownli">9.<span>爱乐之城</span></li>
+    				<li class="rdownli">10.<span>独家新闻</span></li>
+    			</ul>
+    		</div>
+    		<div class="bottom"><a><img src="../img/gg1.jpg" /></a></div>
+    </div>
+    <!--电影区域结束-->
+    
+    <!--小组区域-->
+    <div id="xiaozu">
+    	<div class="left">
+    		<a class="biaoti">小组</a>
+    			<ul class="lul">
+    				<li class="lli"><a>精选</a></li>
+    				<li class="lli"><a>文化</a></li>
+    				<li class="lli"><a>行摄</a></li>
+    				<li class="lli"><a>娱乐</a></li>
+    				<li class="lli"><a>时尚</a></li>
+    				<li class="lli"><a>生活</a></li>
+    				<li class="lli"><a>科技</a></li>
+    			</ul>
+    	</div>
+    	<div class="center">
+    		<h2 class="ing">正在热映……<span>（更多）</span></h2>
+    		<ul class="cul">
+    			<li class="cli">
+    				<a class="pic"><img src="../img/xz1.jpg" /></a>
+    				<p class="name">
+    					<a>帮帮组™加入这个组就有人帮你了！</a>
+    					<span>15066个成员</span>
+    				</p>		
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/xz2.jpg" /></a>
+    				<p class="name">
+    					<a>沙发客</a>
+    					<span>21409个成员</span>
+    				</p>		
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/xz3.jpg" /></a>
+    				<p class="name">
+    					<a>西双版纳</a>
+    					<span>10335个成员</span>
+    				</p>		
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/xz4.jpg" /></a>
+    				<p class="name">
+    					<a>搭讪学</a>
+    					<span>95032个成员</span>
+    				</p>		
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/xz5.jpg" /></a>
+    				<p class="name">
+    					<a>自己给自己剪头发</a>
+    					<span>21773个成员</span>
+    				</p>		
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/xz6.jpg" /></a>
+    				<p class="name">
+    					<a>对象太他妈难找了党-单身凸^-^凸</a>
+    					<span>15260个成员</span>
+    				</p>		
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/xz7.jpg" /></a>
+    				<p class="name">
+    					<a>我爱三毛</a>
+    					<span>43624个成员</span>
+    				</p>		
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/xz8.jpg" /></a>
+    				<p class="name">
+    					<a>这辈子一定要做几件疯狂的事</a>
+    					<span>90379个成员</span>
+    				</p>		
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/xz9.jpg" /></a>
+    				<p class="name">
+    					<a>刘慈欣</a>
+    					<span>18622个成员</span>
+    				</p>		
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/xz10.jpg" /></a>
+    				<p class="name">
+    					<a>记事本圆梦小组</a>
+    					<span>107436个成员</span>
+    				</p>		
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/xz11.jpg" /></a>
+    				<p class="name">
+    					<a>我们就是要做衣服给自己穿</a>
+    					<span>3845个成员</span>
+    				</p>		
+    			</li>
+    		</ul>
+    	</div>
+    	<div class="right">
+    		<h2 class="kind">影片分类……</h2>
+    		<ul class="rul">
+    			<li class="rli">
+    				<a class="timu">兴趣》</a>
+    				<p class="leibie">
+    					<a>旅行</a>
+    					<a>摄影</a>
+    					<a>影视</a>
+    					<a>音乐</a>
+    					<a>文学</a>
+    					<a>游戏</a>
+    					<a>动漫</a>
+    					<a>运动</a>
+    					<a>戏曲</a>
+    					<a>桌游</a>
+    					<a>怪癖</a>
+    				</p>
+    			</li>
+    			<li class="rli">
+    				<a class="timu">生活》</a>
+    				<p class="leibie">
+    					<a>健康</a>
+    					<a>宠物</a>
+    					<a>美食</a>
+    					<a>美容</a>
+    					<a>化妆</a>
+    					<a>护肤</a>
+    					<a>服饰</a>
+    					<a>公益</a>
+    					<a>家庭</a>
+    					<a>育儿</a>
+    					<a>汽车</a>
+    				</p>
+    			</li>
+    			<li class="rli">
+    				<a class="timu">购物》</a>
+    				<p class="leibie">
+    					<a>淘宝</a>
+    					<a>二手</a>
+    					<a>团购</a>
+    					<a>数码</a>
+    					<a>品牌</a>
+    					<a>文具</a>
+    				</p>
+    			</li>
+    			<li class="rli">
+    				<a class="timu">社会》</a>
+    				<p class="leibie">
+    					<a>求职</a>
+    					<a>租房</a>
+    					<a>励志</a>
+    					<a>留学</a>
+    					<a>出国</a>
+    					<a>理财</a>
+    					<a>传媒</a>
+    					<a>创业</a>
+    					<a>考试</a>
+    				</p>
+    			</li>
+    			<li class="rli">
+    				<a class="timu">艺术》</a>
+    				<p class="leibie">
+    					<a>设计</a>
+    					<a>手工</a>
+    					<a>展览</a>
+    					<a>曲艺</a>
+    					<a>舞蹈</a>
+    					<a>雕塑</a>
+    					<a>纹身</a>
+    				</p>
+    			</li>
+    			<li class="rli">
+    				<a class="timu">学术》</a>
+    				<p class="leibie">
+    					<a>人文</a>
+    					<a>社科</a>
+    					<a>自然</a>
+    					<a>建筑</a>
+    					<a>国学</a>
+    					<a>语言</a>
+    					<a>宗教</a>
+    					<a>哲学</a>
+    					<a>软件</a>
+    					<a>硬件</a>
+    					<a>互联网</a>
+    				</p>
+    			</li>
+    			<li class="rli">
+    				<a class="timu">情感》</a>
+    				<p class="leibie">
+    					<a>恋爱</a>
+    					<a>心情</a>
+    					<a>心理学</a>
+    					<a>星座</a>
+    					<a>塔罗</a>
+    					<a>LES</a>
+    					<a>GAY</a>
+    				</p>
+    			</li>
+    			<li class="rli">
+    				<a class="timu">闲聊》</a>
+    				<p class="leibie">
+    					<a>吐槽</a>
+    					<a>笑话</a>
+    					<a>直播</a>
+    					<a>八卦</a>
+    					<a>发泄</a>
+    				</p>
+    			</li>
+    		</ul>
+    	</div>
+    </div>
+    <!--小组区域结束-->
+    
+    <!--读书区域-->
+    <div id="bookbackground">
+    	<div id="book">
+    		<div class="left">
+    			<a class="biaoti">读书</a>
+    			<ul class="lul">
+    				<li class="lli"><a>分类浏览</a></li>
+    				<li class="lli"><a>阅读</a><img src="../img/new.gif" /></li>
+    				<li class="lli"><a>作者</a></li>
+    				<li class="lli"><a>书评</a></li>
+    				<li class="lli"><a>购书单</a></li>
+    			</ul>
+    			<ul class="ldownul">
+    				<li class="ldownli">
+    					<a class="tubiao"></a>
+    					<a class="title">豆瓣阅读</a>
+    				</li>
+    			</ul>
+    		</div>
+    		<div class="center">
+    			<h2 class="new">新书速递……<span>（更多）</span></h2>
+    			<ul class="cul">
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/book1.jpg" />
+    					</a>
+    					<p class="shuming"><a>南十字星共和国...</a></p>
+    					<p class="zuozhe"><span>〔俄〕费·索洛...</span></p>
+    					<a class="shidu">免费试读</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/book2.jpg" />
+    					</a>
+    					<p class="shuming"><a>封锁</a></p>
+    					<p class="zuozhe"><span>小白</span></p>
+    					<a class="shidu">免费试读</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/book3.jpg" />
+    					</a>
+    					<p class="shuming"><a>坏一坏</a></p>
+    					<p class="zuozhe"><span>凉炘</span></p>
+    					<a class="shidu">免费试读</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic">
+    						<img src="../img/book4.jpg" />
+    					</a>
+    					<p class="shuming"><a>逃亡</a></p>
+    					<p class="zuozhe"><span>〔苏联〕米哈伊...</span></p>
+    					<a class="shidu">免费试读</a>
+    				</li>
+    			</ul>
+    			<h2 class="yuanchuang">原创数字作品……<span>（更多）</span></h2>
+    			<ul class="cdownul">
+    				<li class="cdownli">
+    					<a class="pic">
+    						<img src="../img/book5.jpg" />
+    					</a>
+    					<p class="shuming"><a>孤男寡女</a></p>
+    					<p class="zuozhe"><span>东来</span></p>
+    					<p class="price"><span>1.99元</span></p>
+    					<a class="shidu">免费试读</a>
+    				</li>
+    				<li class="cdownli">
+    					<a class="pic">
+    						<img src="../img/book6.jpg" />
+    					</a>
+    					<p class="shuming"><a>舌头</a></p>
+    					<p class="zuozhe"><span>陈树泳</span></p>
+    					<p class="price"><span>1.99元</span></p>
+    					<a class="shidu">免费试读</a>
+    				</li>
+    				<li class="cdownli">
+    					<a class="pic">
+    						<img src="../img/book7.jpg" />
+    					</a>
+    					<p class="shuming"><a>总想对谁说起你...</a></p>
+    					<p class="zuozhe"><span>苏辛</span></p>
+    					<p class="price"><span>0.99元</span></p>
+    					<a class="shidu">免费试读</a>
+    				</li>
+    				<li class="cdownli">
+    					<a class="pic">
+    						<img src="../img/book8.jpg" />
+    					</a>
+    					<p class="shuming"><a>放肆的生活</a></p>
+    					<p class="zuozhe"><span>咸泡饭</span></p>
+    					<p class="price"><span>1.99元</span></p>
+    					<a class="shidu">免费试读</a>
+    				</li>
+    			</ul>
+    		</div>
+    		<div class="right">
+    			<h2 class="remeng">热门标签……<span>（更多）</span></h2>
+    			<ul class="rul">
+    				<li class="rli">
+    					<p>
+    						<span>[文学]</span>
+    						<a>小说</a>
+    						<a>随笔</a>
+    						<a>日本文学</a>
+    						<a>散文</a>
+    						<a>诗歌</a>
+    						<a>童话</a>
+    						<a>名著</a>
+    						<a>港台</a>
+    						<a>更多</a>
+    					</p>
+    				</li>
+    				<li class="rli">
+    					<p>
+    						<span>[流行]</span>
+    						<a>漫画</a>
+    						<a>绘本</a>
+    						<a>推理</a>
+    						<a>青春</a>
+    						<a>言情</a>
+    						<a>科幻</a>
+    						<a>武侠</a>
+    						<a>奇幻</a>
+    						<a>更多</a>
+    					</p>
+    				</li>
+    				<li class="rli">
+    					<p>
+    						<span>[文化]</span>
+    						<a>历史</a>
+    						<a>哲学</a>
+    						<a>传记</a>
+    						<a>设计</a>
+    						<a>建筑</a>
+    						<a>电影</a>
+    						<a>回忆录</a>
+    						<a>音乐</a>
+    						<a>更多</a>
+    					</p>
+    				</li>
+    				<li class="rli">
+    					<p>
+    						<span>[生活]</span>
+    						<a>旅行</a>
+    						<a>励志</a>
+    						<a>职场</a>
+    						<a>美食</a>
+    						<a>教育</a>
+    						<a>灵修</a>
+    						<a>健康</a>
+    						<a>家具</a>
+    						<a>更多</a>
+    					</p>
+    				</li>
+    				<li class="rli">
+    					<p>
+    						<span>[经管]</span>
+    						<a>经济学</a>
+    						<a>管理</a>
+    						<a>商业</a>
+    						<a>金融</a>
+    						<a>营销</a>
+    						<a>理财</a>
+    						<a>股票</a>
+    						<a>企业史</a>
+    						<a>更多</a>
+    					</p>
+    				</li>
+    				<li class="rli">
+    					<p>
+    						<span>[科技]</span>
+    						<a>科普</a>
+    						<a>互联网</a>
+    						<a>编程</a>
+    						<a>交互设计</a>
+    						<a>算法</a>
+    						<a>通信</a>
+    						<a>神经网络</a>
+    						<a>更多</a>
+    					</p>
+    				</li>
+    			</ul>
+    		</div>
+    	</div>
+    </div>
+    <!--读书区域结束-->
+    
+    <!--音乐区域-->
+    <div id="yinyue">
+    <div class="left">
+    	<a class="biaoti">音乐</a>
+    			<ul class="lul">
+    				<li class="lli"><a>音乐人</a></li>
+    				<li class="lli"><a>潮潮豆瓣音乐周</a></li>
+    				<li class="lli"><a>金羊毛计划</a></li>
+    				<li class="lli"><a>专题</a></li>
+    				<li class="lli"><a>排行榜</a></li>
+    				<li class="lli"><a>分类浏览</a></li>
+    				<li class="lli"><a>乐评</a></li>
+    				<li class="lli"><a>豆瓣FM</a></li>
+    				<li class="lli"><a>歌单</a></li>
+    				<li class="lli"><a>阿比鹿音乐奖</a></li>
+    			</ul>
+    			<ul class="ldownul">
+    				<li class="ldownli">
+    					<a class="tubiao1"></a>
+    					<a class="title">豆瓣FM</a>
+    				</li>
+    				<li class="ldownli">
+    					<a class="tubiao2"></a>
+    					<a class="title">豆瓣音乐人</a>
+    				</li>
+    			</ul>
+    </div>
+    <div class="center">
+    	<h2 class="new">豆瓣新碟榜……<span>（更多）</span></h2>
+    	<ul class="cul">
+    		<li class="cli">
+    			<a class="pic"><img src="../img/diebang1.jpg" /></a>
+    			<p class="shuming">
+    				<span>1.</span>
+    				<a>Imagination</a>
+    			</p>
+    			<p class="zuozhe"><a>鹿晗</a></p>
+    			<p class="pinfen"><span class="star1"></span><b>7.4</b></p>
+    		</li>
+    		<li class="cli">
+    			<a class="pic"><img src="../img/diebang2.jpg" /></a>
+    			<p class="shuming">
+    				<span>2.</span>
+    				<a>实名制</a>
+    			</p>
+    			<p class="zuozhe"><a>好妹妹乐队</a></p>
+    			<p class="pinfen"><span class="star2"></span><b>4.7</b></p>
+    		</li>
+    		<li class="cli">
+    			<a class="pic"><img src="../img/diebang3.jpg" /></a>
+    			<p class="shuming">
+    				<span>3.</span>
+    				<a>山水清音图</a>
+    			</p>
+    			<p class="zuozhe"><a>窦唯 不一样</a></p>
+    			<p class="pinfen"><span class="star3"></span><b>8.9</b></p>
+    		</li>
+    		<li class="cli">
+    			<a class="pic"><img src="../img/diebang4.jpg" /></a>
+    			<p class="shuming">
+    				<span>4.</span>
+    				<a>「时间」十年特辑：歌选 (上)</a>
+    			</p>
+    			<p class="zuozhe"><a>白水</a></p>
+    			<p class="pinfen"><span class="star4"></span><b>9.1</b></p>
+    		</li>
+    		<li class="cli">
+    			<a class="pic"><img src="../img/diebang5.jpg" /></a>
+    			<p class="shuming">
+    				<span>5.</span>
+    				<a>DAMN.</a>
+    			</p>
+    			<p class="zuozhe"><a>Kendrick Lamar</a></p>
+    			<p class="pinfen"><span class="star5"></span><b>8.5</b></p>
+    		</li>
+    		<li class="cli">
+    			<a class="pic"><img src="../img/diebang6.jpg" /></a>
+    			<p class="shuming">
+    				<span>6.</span>
+    				<a>Slowdive</a>
+    			</p>
+    			<p class="zuozhe"><a>鹿晗</a></p>
+    			<p class="pinfen"><span class="star6"></span><b>8.5</b></p>
+    		</li>
+    		<li class="cli">
+    			<a class="pic"><img src="../img/diebang7.jpg" /></a>
+    			<p class="shuming">
+    				<span>7.</span>
+    				<a>4집 PALETTE</a>
+    			</p>
+    			<p class="zuozhe"><a>IU 아이유</a></p>
+    			<p class="pinfen"><span class="star7"></span><b>7.0</b></p>
+    		</li>
+    		<li class="cli">
+    			<a class="pic"><img src="../img/diebang8.jpg" /></a>
+    			<p class="shuming">
+    				<span>8.</span>
+    				<a>1집 23</a>
+    			</p>
+    			<p class="zuozhe"><a>Hyukoh 혁오</a></p>
+    			<p class="pinfen"><span class="star8"></span><b>8.9</b></p>
+    		</li>
+    	</ul>
+    	<h2 class="remeng">热门歌单……<span>（更多）</span></h2>
+    	<ul class="cdownul">
+    		<li class="cdownli">
+    			<a class="pic">
+    				<img src="../img/gedan1.png" />
+    			</a>
+    			<p>看书写字码论文</p>
+    		</li>
+    		<li class="cdownli">
+    			<a class="pic">
+    				<img src="../img/gedan2.png" />
+    			</a>
+    			<p>久石让</p>
+    		</li>
+    		<li class="cdownli">
+    			<a class="pic">
+    				<img src="../img/gedan3.png" />
+    			</a>
+    			<p>工作中的静心歌儿</p>
+    		</li>
+    		<li class="cdownli">
+    			<a class="pic">
+    				<img src="../img/gedan4.png" />
+    			</a>
+    			<p>节奏才是王道</p>
+    		</li>
+    		<li class="cdownli">
+    			<a class="pic">
+    				<img src="../img/gedan5.png" />
+    			</a>
+    			<p>久听不厌</p>
+    		</li>
+    		<li class="cdownli">
+    			<a class="pic">
+    				<img src="../img/gedan6.png" />
+    			</a>
+    			<p>无夜边境</p>
+    		</li>
+    	</ul>
+    </div>
+    <div class="right">
+    	<h2 class="benzhou">热门歌单……<span>（更多）</span></h2>
+    	<ul class="rul">
+    		<li class="rli">
+    			<p class="shuzi">1.</p>
+    			<a class="pic"><img src="../img/liouxing1.png" /></a>
+    			<a class="geshou">宋冬野</a>
+    			<span class="lioupai">流派: 民谣 Folk</span>
+    			<b class="guanzhu">143057人关注</b>
+    		</li>
+    		<li class="rli">
+    			<p class="shuzi">2.</p>
+    			<a class="pic"><img src="../img/liouxing2.png" /></a>
+    			<a class="geshou">梁晓雪</a>
+    			<span class="lioupai">流派: 民谣 Folk</span>
+    			<b class="guanzhu">70539人关注</b>
+    		</li>
+    		<li class="rli">
+    			<p class="shuzi">3.</p>
+    			<a class="pic"><img src="../img/liouxing3.png" /></a>
+    			<a class="geshou">ake</a>
+    			<span class="lioupai">流派: 民谣 Folk</span>
+    			<b class="guanzhu">556人关注</b>
+    		</li>
+    		<li class="rli">
+    			<p class="shuzi">4.</p>
+    			<a class="pic"><img src="../img/liouxing4.png" /></a>
+    			<a class="geshou">白水</a>
+    			<span class="lioupai">流派: 原声 Soundtrack</span>
+    			<b class="guanzhu">27766人关注</b>
+    		</li>
+    		<li class="rli">
+    			<p class="shuzi">5.</p>
+    			<a class="pic"><img src="../img/liouxing5.png" /></a>
+    			<a class="geshou">王胜男</a>
+    			<span class="lioupai">流派: 民谣 Folk</span>
+    			<b class="guanzhu">7342人关注</b>
+    		</li>
+    	</ul>
+    </div>
+    <div class="gg">
+    		<a></a>
+    		<span>广告</span>
+    	</div>
+    </div>
+    <!--音乐区域结束-->
+    
+    <!--市集区域-->
+    <div id="shijibackground">
+    	<div id="shiji">
+    		<div class="left">
+    			<a class="biaoti">市集</a>
+    			<ul class="lul">
+    				<li class="lli"><a>美食</a></li>
+    				<li class="lli"><a>服装</a></li>
+    				<li class="lli"><a>配饰</a></li>
+    				<li class="lli"><a>包袋</a></li>
+    				<li class="lli"><a>鞋靴</a></li>
+    				<li class="lli"><a>美容护肤</a></li>
+    				<li class="lli"><a>家居生活</a></li>
+    			</ul>
+    		</div>
+    		<div class="center">
+    			<h2 class="remeng">热门商品……<span>（更多）</span></h2>
+    			<ul class="cul">
+    				<li class="cli">
+    					<a class="pic1"><img src="../img/shangpin1.jpg" /></a>
+    					<a class="mingcheng1">桌面置物架</a>
+    					<a class="price">88.00</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic2"><img src="../img/shangpin2.jpg" /></a>
+    					<a class="mingcheng2">木马逐风Mazur“三…</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic2"><img src="../img/shangpin3.jpg" /></a>
+    					<a class="mingcheng2">多功能U型枕 贴心…</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic2"><img src="../img/shangpin4.jpg" /></a>
+    					<a class="mingcheng2">PISN 秋冬羊毛混…</a>
+    				</li>
+    				<li class="cli">
+    					<a class="pic2"><img src="../img/shangpin5.jpg" /></a>
+    					<a class="mingcheng2">良朴商务中筒男女…</a>
+    				</li>
+    			</ul>
+    			<ul class="cdownul">
+    				<li class="cdownli">
+    				    <a class="pic1"><img src="../img/shangpin6.jpg" /></a>
+    					<a class="mingcheng1">十四行诗 原味台湾手工黑糖茶…</a>
+    					<a class="price">43.00</a>
+    				</li>
+    				<li class="cdownli">
+    					<a class="pic2"><img src="../img/shangpin7.jpg" /></a>
+    					<a class="mingcheng2">桌面置物架</a>
+    				</li>
+    				<li class="cdownli">
+    					<a class="pic2"><img src="../img/shangpin8.jpg" /></a>
+    					<a class="mingcheng2">十四行诗 原味台…</a>
+    				</li>
+    				<li class="cdownli">
+    					<a class="pic2"><img src="../img/shangpin9.jpg" /></a>
+    					<a class="mingcheng2">木马逐风Mazur“三…</a>
+    				</li>
+    				<li class="cdownli">
+    					<a class="pic2"><img src="../img/shangpin10.jpg" /></a>
+    					<a class="mingcheng2">多功能U型枕 贴心…</a>
+    				</li>
+    			</ul>
+    		</div>
+    		<div class="right">
+    			<h2 class="remeng">热门店铺……<span>（更多）</span></h2>
+    			<ul class="rul">
+    				<li class="rli">
+    					<a class="pic"><img src="../img/dianpu1.jpg" /></a>
+    					<a class="dianming">ERICD官方旗舰店</a>
+    					<p>ERICD原创设计以传统服装制作工艺为主导，结合当下最流行的...</p>
+    				</li>
+    				<li class="rli">
+    					<a class="pic"><img src="../img/dianpu2.jpg" /></a>
+    					<a class="dianming">PISN</a>
+    					<p>每周五定时上新，注意关注偶</p>
+    				</li>
+    				<li class="rli">
+    					<a class="pic"><img src="../img/dianpu3.jpg" /></a>
+    					<a class="dianming">Nanaz 家居百货</a>
+    					<p>不用装修，NaNaZ home 也能你家变得更美一些。</p>
+    				</li>
+    				<li class="rli">
+    					<a class="pic"><img src="../img/dianpu4.jpg" /></a>
+    					<a class="dianming">黄小姐</a>
+    					<p>卖我会穿的打底，做你会爱的姑娘</p>
+    				</li>
+    			</ul>
+    		</div>
+    		<div class="gg">
+    		<a></a>
+    		<span>广告</span>
+    	</div>
+    	</div>
+    </div>
+    <!--市集区域结束-->
+    
+    <!--同城区域-->
+    <div id="toncheng">
+    	<div class="left">
+    		<a class="biaoti">同城</a>
+    			<ul class="lul">
+    				<li class="lli"><a>近期活动</a></li>
+    				<li class="lli"><a>主办方</a></li>
+    				<li class="lli"><a>舞台剧</a></li>
+    				<li class="lli"><a>2016年舞台剧榜单</a></li>
+    			</ul>
+    	</div>
+    	<div class="center">
+    		<h2 class="benzhou">北京.本周热门活动……<span>（更多）</span></h2>
+    		<ul class="cul">
+    			<li class="cli">
+    				<a class="pic"><img src="../img/toncheng1.jpg" /></a>
+    				<p class="mingcheng"><a class="huodo">【北大剧社2017春季展演季】学期大戏「群盲」</a></p>
+    				<span class="shijian">5月4日 周四 - 5月6日 周六</span>
+    				<span class="didian">北京大学新太阳学生活动中...</span>
+    				<span class="guanzhu">734人关注</span>
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/toncheng2.jpg" /></a>
+    				<p class="mingcheng"><a class="huodo">2017年北京机器人展会应有尽有--完美机器人计划</a></p>
+    				<span class="shijian">5月18日 周四 - 5月21日 周日</span>
+    				<span class="didian">北京市朝阳区北三环东路6号</span>
+    				<span class="guanzhu">23人关注</span>
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/toncheng3.jpg" /></a>
+    				<p class="mingcheng">
+    					<a class="huodo">音乐之声—大型动漫电影视听交响音乐会</a>
+    				    <a class="piao">正在售票</a>
+    				</p>
+    				<span class="shijian">5月29日 周一 00:00 - 21:30</span>
+    				<span class="didian">北京音乐厅</span>
+    				<span class="guanzhu">0人关注</span>
+    			</li>
+    			<li class="cli">
+    				<a class="pic"><img src="../img/toncheng4.jpg" /></a>
+    				<p class="mingcheng">
+    					<a class="huodo">孟京辉戏剧工作室《你好,忧愁》 </a>
+    					<a class="piao">正在售票</a>
+    				</p>
+    				<span class="shijian">6月6日 周二 - 6月10日 周六</span>
+    				<span class="didian">国家大剧院</span>
+    				<span class="guanzhu">5人关注</span>
+    			</li>
+    		</ul>
+    	</div>
+    	<div class="right">
+    		<h2 class="kind">活动标签……</h2>
+    		<ul class="rul">
+    			<li class="rli">
+    				<a class="timu">音乐》</a>
+    				<p class="leibie">
+    					<a>小型现场</a>
+    					<a>音乐会</a>
+    				    <a>演唱会</a>
+    					<a>音乐节</a>
+    				</p>
+    			</li>
+    			<li class="rli">
+    				<a class="timu">戏剧》</a>
+    				<p class="leibie">
+    					<a>话剧</a>
+    					<a>音乐会</a>
+    					<a>舞剧</a>
+    					<a>歌剧</a>
+    					<a>戏曲</a>
+    				</p>
+    			</li>
+    			<li class="rli">
+    				<a class="timu">聚会》</a>
+    				<p class="leibie">
+    					<a>生活</a>
+    					<a>集市</a>
+    					<a>摄影</a>
+    					<a>外语</a>
+    					<a>桌游</a>
+    					<a>夜店</a>
+    					<a>交友</a>
+    					<a>美食</a>
+    					<a>派对</a>
+    				</p>
+    			</li>
+    			<li class="rli">
+    				<a class="timu">电影》</a>
+    				<p class="leibie">
+    					<a>主题放映</a>
+    					<a>影展</a>
+    					<a>影院活动</a>
+    				</p>
+    			</li>
+    			<li class="rli">
+    				<a class="timu">其他》</a>
+    				<p class="leibie">
+    					<a>讲座</a>
+    					<a>展览</a>
+    					<a>运动</a>
+    					<a>旅行</a>
+    					<a>公益</a>
+    				</p>
+    			</li>
+    		</ul>
+    	</div>
+    	<div class="gg">
+    		<a></a>
+    		<span>广告</span>
+    	</div>
+    </div>
+    <!--同城区域结束-->
+    
+    <!--底部区域-->
+    <div id="dibu">
+    	<p>
+    		<span>© 2005－2017 douban.com, all rights reserved 北京豆网科技有限公司 </span>
+    		<span><a>京ICP证090015号 京ICP备11027288号</a> 网络视听许可证<a>0110418</a>号 </span>
+    		<span>京网文[2015]2026-368号  <a>京公网安备11010502000728</a> 新出网证(京)字129号 </span>
+    		<span>违法和不良信息举报电话：4008353331   </span>
+    		<span><a>中国互联网举报中心</a> 电话：12377 <a>《食品流通许可证》许可证：SP1101051510347287</a></span>
+    	</p>
+    	<a class="xinxi"><img src="../img/xinxi.jpg" /></a>
+    	<ul>
+    		<li>
+    			<a class="daohang">关于豆瓣</a>
+    			<a class="daohang">在豆瓣工作</a>
+    			<a class="daohang">联系我们</a>
+    			<a class="daohang">免责声明</a>
+    			<a class="daohang">帮助中心</a>
+    			<a class="daohang">移动应用</a>
+    			<a class="daohang">豆瓣广告</a>
+    		</li>
+    	</ul>
+    </div>
+    <!--底部区域结束-->
+    <!--顶部返回按钮区域-->
+    <span class="back"></span>
+    <!--顶部返回按钮区域结束-->
+</body>
+</html>
